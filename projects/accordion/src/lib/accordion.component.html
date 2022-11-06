@@ -1,0 +1,11 @@
+<div class="accordion-govco" id="accordionExampleOne" >
+    <div class="item-accordion-govco">
+        <h2 class="accordion-header" id="accordionPanels-exampleOne">
+      <p>{{title}} <a (click)="toggle()" style="float: right;">Toggle</a></p>
+        </h2>
+
+    <div [@smoothCollapse]="!active? 'initial': 'final'">
+      <ng-content></ng-content>  
+    </div>
+    </div>
+</div>

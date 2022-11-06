@@ -1,0 +1,26 @@
+.title-one-accordion-govco {
+    color: #004884;
+    font-size: 18px;
+    font-family: Montserrat-SemiBold;
+    display: block;
+  }
+
+  .title-two-accordion-govco {
+    color: #000000;
+    font-size: 16px;
+    font-family: Montserrat-Bold;
+    margin-left: 0.875rem;
+    margin-top: 1.875rem;
+    display: block;
+  }
+
+    .text-one-accordion-govco {
+    color: #000000;
+    font-size: 16px;
+    font-family: WorkSans-Regular;
+    margin-left: 0.875rem;
+    margin-top: 0.938rem;
+    margin-bottom: 0;
+    display: block;
+    line-height: 1.5rem;
+  }
